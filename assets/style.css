@@ -1,0 +1,65 @@
+* {
+    font-family: "Comis Sans MS";
+
+}
+body {
+    background-color: darkgray;
+    background-image: url(./images/images.jpeg);
+    background-size: cover;
+}
+
+header {
+
+    min-height: 15vh;
+    text-align: center;
+    color: whitesmoke;
+    border-top: 15px;
+}
+.hide {
+    display: none;
+
+}
+.start-screen {
+    width: 30vw;
+    float: left;
+    text-align: center;
+    border: 3px solid wheat;
+    color: wheat;
+    margin-left: 10%;
+}
+button {
+    background-color: wheat;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+.question-screen {
+    width: 50vw;
+    height: 30%;
+    float: left;
+    text-align: center;
+    border: 3px solid wheat;
+    color: wheat;
+    margin-left: 5%;
+
+}
+.final-screen {
+    width: 30vw;
+    float: right;
+    text-align: center;
+    border: 3px solid black;
+    color: wheat;
+    margin-top: 15%;
+    margin-right: 15%;
+    background-color: wheat;
+    color: black;
+    
+    
+
+}

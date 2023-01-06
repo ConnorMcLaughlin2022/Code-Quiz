@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code? Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+<body>
+    <header>
+        <h2 class="hide time-screen">Time: <span id="timer">30</span> seconds!</h2>
+    </header>
+
+    <section class = "start-screen">
+        <h1>Welcome to Trivia!</h1>
+        <h2>rules and scoring:</h2>
+        <p> You have 30 seconds to complete the questions, however, any questions answered incorrectly will deduct 2 seconds from the time clock. You will be scored on the allowed time left on your timer. Goodluck.</p>
+        <button id="start">Start the quiz</button>
+    </section>
+        <section class = "hide question-screen">
+            <h2 id="questions">Question: </h2>
+            <h2 id="answers">Answers:</h2>
+            <h2 id="results"></h2>
+        </section>
+        <section class="hide final-screen">
+            <h2>score: <span id="score">0</span></h2>
+            <span>initials:</span><input id="initials" type="text">
+            <button id="save-score">submit</button>
+            <h3>all-time scores</h3>
+            <ul id="high-scores"></ul>
+
+            
+        </section>
+
+<script type="text/javascript" src="assets/script.js"></script>
+</body>
+</html>
