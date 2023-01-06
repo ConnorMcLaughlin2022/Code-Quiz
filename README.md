@@ -18,7 +18,7 @@
     
 ## URL & Site
 
-    Site:  
-    URL: 
+    Site: https://connormclaughlin2022.github.io/Code-Quiz/ 
+    URL: https://github.com/ConnorMcLaughlin2022/Code-Quiz.git
 
 
